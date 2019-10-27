@@ -1,0 +1,39 @@
+p {
+  color: #c4c4c4;
+}
+
+body {
+  font-family: $primary-font;
+  font-size: 18px;
+  //   overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+ul,
+li {
+  list-style: none;
+  text-decoration: none;
+}
+.active {
+  display: block;
+}
+.container {
+  max-width: 1410px;
+  margin: 0 auto;
+  padding: 2em 1em;
+}
+// animation
+
+@keyframes animeMouse {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-20px);
+  }
+}
